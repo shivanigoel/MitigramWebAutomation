@@ -1,0 +1,25 @@
+{
+    "validCredentials": {
+      "email": "valid@example.com",
+      "password": "validPassword"
+    },
+    "invalidCredentials": {
+      "email": "valid@example.com",
+      "incorrectPassword": "incorrectPassword"
+    },
+    "incorrectEmail": {
+      "invalidEmail": "validexample.com",
+      "Password": "correctPassword"
+    },
+    "emptyCredentials": {
+      "email": "",
+      "password": ""
+    },
+    "apiEndpoint": "https://marketplace.mitigram.com/Account/Login?ReturnUrl=%2F",  
+    "loginAPI": {
+      "StatusCode": "OK",
+      "RequestMethod":"GET"  
+    }
+    
+  }
+  

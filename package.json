@@ -1,0 +1,23 @@
+{
+  "name": "mitigramwebautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-chromium": "npm test --project=chromium",
+    "test-firefox": "npm test --project=firefox",
+    "test-webkit": "npm test --project=webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.11.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.2"
+  }
+}
